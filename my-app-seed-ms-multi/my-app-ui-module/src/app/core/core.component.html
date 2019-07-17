@@ -1,0 +1,5 @@
+<nav mat-tab-nav-bar>
+    <a mat-tab-link [routerLink]="['home']" routerLinkActive #home_rla="routerLinkActive" [active]="home_rla.isActive">Home</a>
+    <a mat-tab-link [routerLink]="['first']" routerLinkActive #first_rla="routerLinkActive" [active]="first_rla.isActive">First</a>
+</nav>
+<router-outlet></router-outlet>
